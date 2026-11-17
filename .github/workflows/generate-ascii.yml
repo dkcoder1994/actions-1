@@ -14,7 +14,8 @@ jobs:
         run: ls -ltra
 
       - name: Run ASCII Art Script
-        run: |
-          chmod +x ascii-script.sh 
-          dkcoder1994/actions-1/.github/workflows/ascii-script.sh
+         run: |
+            chmod +x ascii-script.sh 
+            dkcoder1994/actions-1/.github/workflows/ascii-script.sh
+
       
