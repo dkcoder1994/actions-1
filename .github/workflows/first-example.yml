@@ -9,8 +9,7 @@ jobs:
         run: echo "My first GitHub Actions Job"
       - name: List files
         run: ls
-        steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
       - name: Read file
         run: cat README.md
+      - name: Checkout repository
+        uses: actions/checkout@v3
